@@ -19,7 +19,11 @@ class AppTheme {
 
   ThemeData getThemeData() {
     return ThemeData(
-      colorScheme: ColorScheme.fromSeed(seedColor: colorList[selectedColor]),
+      brightness: Brightness.dark, // Add this line
+      colorScheme: ColorScheme.fromSeed(
+        seedColor: colorList[selectedColor],
+        brightness: Brightness.dark, // And this line
+      ),
       useMaterial3: true,
       appBarTheme: const AppBarTheme(
         centerTitle: true,
