@@ -26,7 +26,7 @@ class AppTheme {
       ),
       useMaterial3: true,
       appBarTheme: const AppBarTheme(
-        centerTitle: true,
+        centerTitle: false,
       ),
     );
   }
