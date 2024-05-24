@@ -29,10 +29,30 @@ class _HomeView extends StatelessWidget {
     return ListView.builder(
       itemCount: listMenu.length,
       itemBuilder: (context, index) {
-        return ListTile(
-          title: Text(listMenu[index].title),
-        );
+        return CustomListTile(listMenu: listMenu[index]);
       },
       );
+  }
+}
+
+class CustomListTile extends StatelessWidget {
+  const CustomListTile({
+    super.key,
+    required this.listMenu,
+  });
+
+  final MenuItems listMenu;
+
+  @override
+  Widget build(BuildContext context) {
+    return ListTile(
+      title: Text(listMenu.title),
+      subtitle: Text(listMenu.subTitle),
+      leading: Icon(listMenu.icon),
+      trailing: const Icon(Icons.arrow_forward_ios_outlined),
+      onTap: () {
+        
+      },
+    );
   }
 }
