@@ -20,5 +20,11 @@ const listMenu = <MenuItems>[
     title: "Tarjeta", 
     subTitle: "Un contenedor estilizado", 
     link: "/cards", 
+    icon: Icons.credit_card),
+
+    MenuItems(
+    title: "Progress indicator", 
+    subTitle: "controlled and infinite", 
+    link: "/progress", 
     icon: Icons.credit_card)
 ];
