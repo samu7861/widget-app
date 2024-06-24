@@ -26,5 +26,11 @@ const listMenu = <MenuItems>[
     title: "Progress indicator", 
     subTitle: "controlled and infinite", 
     link: "/progress", 
-    icon: Icons.credit_card)
+    icon: Icons.refresh_outlined),
+
+    MenuItems(
+    title: "Snackbars", 
+    subTitle: "indicadores en pantalla", 
+    link: "/snackbars", 
+    icon: Icons.info_outline)
 ];
