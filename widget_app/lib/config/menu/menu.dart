@@ -32,5 +32,11 @@ const listMenu = <MenuItems>[
     title: "Snackbars", 
     subTitle: "indicadores en pantalla", 
     link: "/snackbars", 
-    icon: Icons.info_outline)
+    icon: Icons.info_outline),
+
+    MenuItems(
+    title: "animated container", 
+    subTitle: "Statefull widget animado", 
+    link: "/animated", 
+    icon: Icons.check_box_outline_blank_outlined)
 ];
