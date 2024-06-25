@@ -38,5 +38,11 @@ const listMenu = <MenuItems>[
     title: "animated container", 
     subTitle: "Statefull widget animado", 
     link: "/animated", 
-    icon: Icons.check_box_outline_blank_outlined)
+    icon: Icons.check_box_outline_blank_outlined),
+
+    MenuItems(
+    title: "UI-controls + tiles", 
+    subTitle: "control de ui", 
+    link: "/ui-controls", 
+    icon: Icons.car_rental_outlined),
 ];
